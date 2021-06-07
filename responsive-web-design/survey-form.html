@@ -1,0 +1,90 @@
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <style>
+    #survey-form{
+      max-width: 450px;
+      margin: auto;
+      background: #c5afdb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h1,p{
+      text-align: center;
+      color: white;
+    }
+    label{
+      font-size: 20px;
+    }
+    #email,#name,#number,#dropdown,#submit,#center{
+      width:98%;
+    }
+    input,button,select,textarea{
+      font-size: 16px;
+      font-family: 'Fjalla One', sans-serif;
+    }
+    #background-img{
+      background: url(https://cdn.hipwallpaper.com/i/22/46/uQAXfh.jpg);
+    }
+    body{
+      font-family: 'Fjalla One', sans-serif;
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+  <div id="background-img">
+  <h1 id="title">
+    Customer Satisfaction Survey Form
+  </h1>
+  <p id="description">
+    Help us improve our restaurant service by filling out the form below
+  </p>
+  <form id="survey-form">
+    <div id="center">
+    <label id="name-label" for="fname"> Name:</label><br>
+    <input id="name" type="text" name="fname" placeholder="Enter your name" required>
+    <br><br>
+    
+    <label id="email-label" for="femail">Email:</label><br>
+    <input id="email" type="email" name="femail" placeholder="Enter your e-mail address" required>
+    <br><br>
+    
+    <label id="number-label" for="fage">Age: (Optional)</label><br>
+    <input id="number" type="number" name="fage" placeholder="Enter your age" min="10" max="100">
+    <br><br>
+    
+    <label for="fdropdown">Select your satisfaction level:</label><br>
+    <select id="dropdown" name="fdropdown" required>
+      <option disabled selected value>How would you describe your experience</option>
+      <option>Excellent</option>
+      <option>Good</option>
+      <option>Bad</option>
+      <option>Terrible</option>
+    </select>
+    <br><br>
+    
+    <label  for="fradio">Would you recommend us to your friends?</label><br>
+    <input  type="radio" id="rYes" name="fradio" value="Yes"><label for="rYes">Yes</label><br>
+    <input  type="radio" id="rNo" name="fradio" value="No"><label for="rNo">No</label><br>
+    <input  type="radio" id="rMaybe" name="fradio" value="Maybe"><label for="rMaybe">Maybe</label>     <br><br>
+    
+    <label for="fcheckbox">What should we improve at our restaurant?</label><br>
+    <input type="checkbox" name="fcheckbox" value="Hygene"><label>Hygene</label><br>
+    <input type="checkbox" name="fcheckbox" value="Service"><label>Service</label><br>
+    <input type="checkbox" name="fcheckbox" value="Food"><label>Food</label><br>
+    <input type="checkbox" name="fcheckbox" value="Presentation"><label>Presentation</label><br>
+    <input type="checkbox" name="fcheckbox" value="Menu"><label>Menu</label><br><br>
+    
+    <label>Share your comments and suggestions with us</label><br>
+    <textarea id="ftextarea" rows="5" cols="46" placeholder="Enter your comments and suggestions here..."></textarea>
+    <br><br>
+            
+    <input id="submit" type="submit">
+    </div>
+  </form>
+    </div>
+</body>
