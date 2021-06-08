@@ -7,11 +7,8 @@ CodePen links for displaying projects.
 Responsive Web Design
 ----------------------------------------------------
 
-| Tribute Page: https://codepen.io/umtince/pen/PopeQJX |
---------------------------------------------------------
+Tribute Page: https://codepen.io/umtince/pen/PopeQJX
 
-| Survey Form: https://codepen.io/umtince/pen/gOmKYNy |
---------------------------------------------------------
+Survey Form: https://codepen.io/umtince/pen/gOmKYNy
 
-| Product Landing Page: https://codepen.io/umtince/pen/VwpBpqe |
--------------------------------------------------------------------
+Product Landing Page: https://codepen.io/umtince/pen/VwpBpqe
