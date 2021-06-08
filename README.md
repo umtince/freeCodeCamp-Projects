@@ -4,8 +4,12 @@ This a repository for my freeCodeCamp projects.
 
 CodePen links for displaying projects.
 
-Tribute Page: https://codepen.io/umtince/pen/PopeQJX
+Responsive Web Design
+----------------------------------------------------
 
-Survey Form: https://codepen.io/umtince/pen/gOmKYNy
+| Tribute Page: https://codepen.io/umtince/pen/PopeQJX |
 
-Product Landing Page: https://codepen.io/umtince/pen/VwpBpqe
+| Survey Form: https://codepen.io/umtince/pen/gOmKYNy |
+
+| Product Landing Page: https://codepen.io/umtince/pen/VwpBpqe |
+
